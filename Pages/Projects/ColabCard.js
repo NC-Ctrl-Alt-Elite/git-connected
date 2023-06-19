@@ -14,14 +14,14 @@ const ColabCard = ({ data }) => {
         <Text className="font-semibold">
           Project Description: {data.item.description}
         </Text>
-        {/* <TouchableOpacity>
+        <TouchableOpacity>
           <Text
             className="bg-lime-700 my-1 py-1 px-2 text-white text-center w-[80px] rounded-full"
             onPress={() => Linking.openURL(`${data.item.html_url}`)}
           >
             GitHub
           </Text>
-        </TouchableOpacity> */}
+        </TouchableOpacity>
       </View>
     </View>
   );
